@@ -12,7 +12,7 @@
 
 <div class="container">
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <div class="col-md-3 mb-2 mb-md-0">
+        <div class="col-md-3 mb-3 mb-md-0">
             <a href="#"
                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                 <svg width="64px" height="64px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@
                 <span class="fs-4">Project Go Green</span>
             </a>
         </div>
-        <ul class="nav h5 col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <ul class="nav h5 col-12 col-md-auto mb-1 justify-content-center mb-md-0">
             <li>
                 <a class="nav-link active px-2" aria-current="page" href="#">Home</a>
             </li>
@@ -42,18 +42,19 @@
             </li>
         </ul>
 
-        <div class="col-md-1 text-end">
-            <ul class="navbar navbar-collapse d-flex text-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/BHLoneWolf0 ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                             class="bi bi-github" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                </li>
+        <div class="col-md-3 text-end">
+            <ul class="navbar justify-content-end d-flex text-center gap-3">
+                <div class="nav-item">
+                    <li>
+                        <a class="nav-link" href="https://github.com/BHLoneWolf0 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                 class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                        </a>
+                    </li>
+                </div>
+                <div class="vr" style="width: 4px"></div>
                 <div class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -101,117 +102,116 @@
     <img src="assets/images/Deforested-Area.jpg" class="img-fluid opacity-25" alt="Deforested Area"
          id="DeforestedImage">
     <div class="card-img-overlay ">
-        <div class="flex-column mt-4 pe-2 bg-success text-center border border-success-subtle border-4 rounded shadow-lg position-absolute start-50 top-0 translate-middle-x"
-             style="font-size: 100%" id="AnimatedNumberContainer">
-            <div class="display-1 fw-bold" id="AnimatedNumber"></div>
+        <div class="flex-column mt-4 pe-2 text-center"
+             id="AnimatedNumberContainer">
             <div class="display-1 fw-bold">
-                    <span class="text-success-emphasis">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" fill="currentColor"
-                             class="bi bi-tree-fill" viewBox="0 0 16 16">
-                            <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777z"/>
-                        </svg>Trees
-                    </span>Destroyed
+                <div id="AnimatedNumber">0</div>
+                <span class="text-success-emphasis">
+                <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" fill="currentColor"
+                     class="bi bi-tree-fill" viewBox="0 0 16 16">
+                    <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777z"/>
+                </svg>Trees</span>Destroyed
             </div>
         </div>
     </div>
 
-    <!--    <div class="card-img-overlay">-->
-    <!--        <div class="container-fluid text-center mt-5">-->
-    <!--            <div class="row justify-content-center gap-5" id="StatsCards">-->
-    <!--                <div class="col-md-3">-->
-    <!--                    <div class="card h-100">-->
-    <!--                        <div class="card-body">-->
-    <!--                            <h5 class="card-title h2">Deforested Area</h5>-->
-    <!--                            <p class="card-text">Some text here.</p>-->
-    <!--                            <a href="#" class="btn btn-primary">Go somewhere</a>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--                <div class="col-md-3">-->
-    <!--                    <div class="card h-100">-->
-    <!--                        <div class="card-body">-->
-    <!--                            <h5 class="card-title h2">Deforested Area</h5>-->
-    <!--                            <p class="card-text">Some text here.</p>-->
-    <!--                            <a href="#" class="btn btn-primary">Go somewhere</a>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--                <div class="col-md-3">-->
-    <!--                    <div class="card h-100">-->
-    <!--                        <div class="card-body">-->
-    <!--                            <h5 class="card-title h2">Deforested Area</h5>-->
-    <!--                            <p class="card-text">Some text here.</p>-->
-    <!--                            <a href="#" class="btn btn-primary">Go somewhere</a>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</div>-->
+    <div class="card-img-overlay">
+        <div class="container-fluid text-center mt-5">
+            <div class="row justify-content-center gap-5" style="margin-top: 15%" id="StatsCards">
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title h2">Deforested Area</h5>
+                            <p class="card-text">Some text here.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title h2">Deforested Area</h5>
+                            <p class="card-text">Some text here.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title h2">Deforested Area</h5>
+                            <p class="card-text">Some text here.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            function setTheme(mode = 'auto') {
-                const userMode = localStorage.getItem('bs-theme');
-                const sysMode = window.matchMedia('(prefers-color-scheme: light)').matches;
-                const useSystem = mode === 'system' || (!userMode && mode === 'auto');
-                const modeChosen = useSystem ? 'system' : (mode === 'dark' || mode === 'light' ? mode : userMode);
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        function setTheme(mode = 'auto') {
+            const userMode = localStorage.getItem('bs-theme');
+            const sysMode = window.matchMedia('(prefers-color-scheme: light)').matches;
+            const useSystem = mode === 'system' || (!userMode && mode === 'auto');
+            const modeChosen = useSystem ? 'system' : (mode === 'dark' || mode === 'light' ? mode : userMode);
 
-                if (useSystem) {
-                    localStorage.removeItem('bs-theme');
-                } else {
-                    localStorage.setItem('bs-theme', modeChosen);
-                }
-
-                document.documentElement.setAttribute('data-bs-theme', useSystem ? (sysMode ? 'light' : 'dark') : modeChosen);
-
-                document.querySelectorAll('.dropdown-item').forEach(btn => btn.classList.remove('active'));
-                const activeButton = document.getElementById(modeChosen);
-                if (activeButton) {
-                    activeButton.classList.add('active');
-                }
+            if (useSystem) {
+                localStorage.removeItem('bs-theme');
+            } else {
+                localStorage.setItem('bs-theme', modeChosen);
             }
 
-            setTheme();
+            document.documentElement.setAttribute('data-bs-theme', useSystem ? (sysMode ? 'light' : 'dark') : modeChosen);
 
-            document.querySelectorAll('.dropdown-item').forEach(button => {
-                button.addEventListener('click', (event) => {
-                    event.preventDefault();
-                    setTheme(button.id);
-                });
-            });
-
-            window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', () => setTheme());
-        });
-    </script>
-
-    <script>
-        function animateCounter(finalCount, durationMs = 70000) {
-            const counterElement = document.getElementById('AnimatedNumber');
-            let startCount = 0;
-            let startTime = null;
-
-            function updateCounter(currentTime) {
-                if (!startTime) startTime = currentTime;
-                const progress = (currentTime - startTime) / durationMs;
-                const count = Math.min(progress, 1) * finalCount;
-                const roundedCount = Math.floor(count);
-
-                counterElement.textContent = roundedCount.toLocaleString();
-
-                if (progress < 1) {
-                    requestAnimationFrame(updateCounter);
-                }
+            document.querySelectorAll('.dropdown-item').forEach(btn => btn.classList.remove('active'));
+            const activeButton = document.getElementById(modeChosen);
+            if (activeButton) {
+                activeButton.classList.add('active');
             }
-
-            requestAnimationFrame(updateCounter);
         }
 
-        animateCounter(4000000000);
-    </script>
+        setTheme();
+
+        document.querySelectorAll('.dropdown-item').forEach(button => {
+            button.addEventListener('click', (event) => {
+                event.preventDefault();
+                setTheme(button.id);
+            });
+        });
+
+        window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', () => setTheme());
+    });
+</script>
+
+<script>
+    function animateCounter(finalCount, durationMs = 70000) {
+        const counterElement = document.getElementById('AnimatedNumber');
+        let startCount = 0;
+        let startTime = null;
+
+        function updateCounter(currentTime) {
+            if (!startTime) startTime = currentTime;
+            const progress = (currentTime - startTime) / durationMs;
+            const count = Math.min(progress, 1) * finalCount;
+            const roundedCount = Math.floor(count);
+
+            counterElement.textContent = roundedCount.toLocaleString();
+
+            if (progress < 1) {
+                requestAnimationFrame(updateCounter);
+            }
+        }
+
+        requestAnimationFrame(updateCounter);
+    }
+
+    animateCounter(4000000000);
+</script>
 
 
 </body>
