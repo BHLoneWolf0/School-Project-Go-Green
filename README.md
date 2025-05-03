@@ -1,3 +1,10 @@
-# school project Go green
+# School project Go Green
 
-## its about sustainability blah blah
+---
+
+## this project is made by: 
+* Aya Aqeel (PowerPoint)
+* Fatima Waleed (Presenter)
+* Hussain Yasser (PowerPoint)
+* Talal Yousif (Website Developer)
+---
