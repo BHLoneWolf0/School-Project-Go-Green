@@ -5,6 +5,7 @@ $body-bg: #76e857;
 //turn the green success into a bit darker
 $success-text-emphasis: #A8E6A3;
 $success-bg-subtle-dark:#0b3d0b;
+$success-bg-subtle: #75e575;
 
 @import "bootstrap-scss/bootstrap";
 
@@ -22,7 +23,18 @@ body{
 li {
   list-style-type: none
 }
+.card {
+  position: relative;
+}
 
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 8rem; /* give room at the bottom */
+}
 .imageOverlay{
   display: none;
   position: fixed;
