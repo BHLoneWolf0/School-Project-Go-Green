@@ -152,7 +152,7 @@
   --bs-dark-text-emphasis: #dee2e6;
   --bs-primary-bg-subtle: rgb(2.6, 22, 50.6);
   --bs-secondary-bg-subtle: rgb(21.6, 23.4, 25);
-  --bs-success-bg-subtle: rgb(5, 27, 16.8);
+  --bs-success-bg-subtle: #0b3d0b;
   --bs-info-bg-subtle: rgb(2.6, 40.4, 48);
   --bs-warning-bg-subtle: rgb(51, 38.6, 1.4);
   --bs-danger-bg-subtle: rgb(44, 10.6, 13.8);
@@ -11886,11 +11886,11 @@ li {
 
 .thumbnail {
   cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .thumbnail:hover {
   transform: scale(1.05);
-  transition: transform 0.2s ease;
 }
 
 /*# sourceMappingURL=custom.css.map */

@@ -4,6 +4,7 @@ $body-bg-dark: #198a19;
 $body-bg: #76e857;
 //turn the green success into a bit darker
 $success-text-emphasis: #A8E6A3;
+$success-bg-subtle-dark:#0b3d0b;
 
 @import "bootstrap-scss/bootstrap";
 
@@ -44,9 +45,9 @@ li {
 
 .thumbnail{
   cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .thumbnail:hover{
   transform: scale(1.05);
-  transition: transform 0.2s ease;
 }
